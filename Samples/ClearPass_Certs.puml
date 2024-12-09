@@ -27,9 +27,9 @@ skinparam rectangle {
     BorderColor transparent
 }
 
-rectangle "<color:#316985><$Service_Amigopod{scale=0.75}>" as CP
-rectangle "<color:#316985><$Device_iphone{scale=0.50}>" as Smartphone
-rectangle "<color:#316985><$Laptop{scale=0.75}>" as Laptop
+rectangle "<color:#2a5a72><$Service_Amigopod{scale=0.75}>" as CP
+rectangle "<color:#2a5a72><$Device_iphone{scale=0.50}>" as Smartphone
+rectangle "<color:#2a5a72><$Laptop{scale=0.75}>" as Laptop
 
 CP -[hidden]- Laptop
 CP <--> "\nEAP Exchange" Laptop : "<$Certificate{scale=0.75}>\nRADIUS"
